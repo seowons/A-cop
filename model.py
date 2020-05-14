@@ -46,7 +46,7 @@ model.add(Dense(num_classes,activation = 'softmax'))
   
 model.compile(loss='categorical_crossentropy',optimizer='Adam',metrics=['accuracy'])
 
-model.fit(X_train, Y_train, batch_size=32, nb_epoch=100)
+model.fit(X_train, Y_train, batch_size=32, nb_epoch=500)
 
 
 model.save('acop2.h5')
