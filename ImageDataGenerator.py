@@ -40,6 +40,6 @@ for batch in datagen.flow(x, batch_size=1,
                           save_to_dir='C:\\Users\\user\\Desktop\\test1\\preview', save_prefix='udon', save_format='jpeg'):
     i += 1
     if i > 20:
-        break  # 이미지 20장을 생성하고 마칩니다
+        break  
 
         
