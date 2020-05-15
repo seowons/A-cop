@@ -17,7 +17,7 @@ categories = ["dumpling", "hotdog", "fishcake","laver", "pancake", "pasta", "spa
  
 num_classes = len(categories)
 
-#데이터의 용량을 줄이기 위해서 이미지의 크기를 줄여야함 28*28 크기로 조절
+
 image_w = 28
 image_h = 28
   
