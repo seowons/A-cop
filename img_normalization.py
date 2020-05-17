@@ -34,7 +34,7 @@ for index, categorie in enumerate(categories):
             print(image_dir+filename)
             img = cv2.imread(image_dir+filename)
             img = cv2.resize(img, None, fx=image_w/img.shape[1], fy=image_h/img.shape[0])
-            X.append(img/256) #픽셀 0~255값을 가짐 학습하려면 0~1사이의 소수가 필요그래서 256으로 나눔
+            X.append(img/256) #픽셀 0~255값을 가짐 학습하려면 0~1사이의 소수가 필요그래서 256으로 나눔..
             Y.append(label)#
  
 X = np.array(X)
