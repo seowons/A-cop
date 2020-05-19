@@ -7,7 +7,8 @@ Created on Tue May 12 23:19:59 2020
 
 from keras.preprocessing.image import ImageDataGenerator
 
-datagen = ImageDataGenerator(
+#이미지 부풀리기
+datagen = ImageDataGenerator( 
         rotation_range=40,
         width_shift_range=0.2,
         height_shift_range=0.2,
