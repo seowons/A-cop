@@ -16,6 +16,7 @@ from keras.models import load_model
 categories = ["dumpling", "hotdog", "fishcake","laver", "pancake", "pasta", "spam", "tuna", "udon","rice"
               "ramen","chickensoup", "soup","tofusushi","tofu", "breast", "curry","duck", "jaban","peachcan"]
 
+#생성 모델로 테스트
 def Dataization(img_path):
     image_w = 28
     image_h = 28
