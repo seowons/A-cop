@@ -69,10 +69,10 @@ checkpointer = ModelCheckpoint(filepath=modelpath, monitor='loss', verbose=1, sa
 early_stopping_callback = EarlyStopping(monitor='loss', patience=100)
  
 # Learning and save models
-history=model.fit(X_train, Y_train, validation_split=0.1, epochs=3500, batch_size=10, verbose=0, callbacks=[early_stopping_callback,checkpointer])
+history=model.fit(X_train, Y_train, validation_split=0.1, epochs=350, batch_size=10, verbose=0, callbacks=[early_stopping_callback,checkpointer])
 
 #모델을 학습시키고 학습 과정을 시각화해 본다.
-history = model.fit(X_train, Y_train, batch_size = 50, validation_split = 0.2, epochs = 100, verbose = 0)
+history = model.fit(X_train, Y_train, batch_size = 20, validation_split = 0.2, epochs = 100, verbose = 0)
 import matplotlib.pylab as plt
 
 print(history.history.keys())
