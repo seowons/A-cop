@@ -50,7 +50,7 @@ model.fit(X_train, Y_train, batch_size=32, nb_epoch=500)
 
 
 model.save('acop2.h5')
-model.summary() #model.summary() 를 통해 모델의 대략적인 구조를 파악
+model.summary() #model.summary() 를 통해 모델의 대략적인 구조를 파악.
 
 X_train = np.append(X_train,X_test, axis=0)
 Y_train = np.append(Y_train,Y_test, axis=0)
