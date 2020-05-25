@@ -36,13 +36,13 @@ import matplotlib.pylab as plt
 print(history.history.keys())
 
 print(history.history['accuracy']) 
-# acc: 매 epoch 마다의 훈련 정확도
+# acc: 매 epoch 마다의 훈련 정확도.
 print(history.history['loss']) 
-#loss:매 epoch 마다의 훈련 손실 값
+#loss:매 epoch 마다의 훈련 손실 값.
 print(history.history['val_accuracy'])
-# val_acc매 epoch 마다의 검증 정확도
+# val_acc매 epoch 마다의 검증 정확도.
 print(history.history['val_loss'])
-# val_loss 매 epoch마다의 검증 손실 값
+# val_loss 매 epoch마다의 검증 손실 값.
 
 ## summarize history for accuracy
 plt.plot(history.history['accuracy'])
