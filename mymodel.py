@@ -17,7 +17,7 @@ print(X_train.shape[0])
 categories = ['Chickenbreast', 'Curry', 'duck', 'laver','Peach','Ramen','Samgyetang','Soup','sushi','tofu']
 nb_classes = len(categories)
 
-#일반화
+#일반화 /
 X_train = X_train.astype(float) / 255
 X_test = X_test.astype(float) / 255
 
