@@ -4,7 +4,7 @@ Created on Sun May 17 21:37:19 2020
 
 @author: sue
 """
-# 두번째 모델 학습도는 좋은거 같은데 정확도가 낮은거 같음
+# 두번째 모델 학습도는 좋은거 같은데 정확도가 낮은거 같음..
 
 
 from keras.models import Sequential
