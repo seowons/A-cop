@@ -42,7 +42,7 @@ print(history.history['loss'])
 print(history.history['val_accuracy'])
 # val_acc매 epoch 마다의 검증 정확도.
 print(history.history['val_loss'])
-# val_loss 매 epoch마다의 검증 손실 값.
+
 
 ## summarize history for accuracy
 plt.plot(history.history['accuracy'])
