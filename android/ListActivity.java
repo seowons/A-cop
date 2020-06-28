@@ -1,4 +1,3 @@
-package com.github.dudgns0507.keras;
 
 import androidx.appcompat.app.AppCompatActivity;
 
