@@ -1,4 +1,3 @@
-package com.github.dudgns0507.keras;
 
 public class Data {
     private int id;
